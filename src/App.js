@@ -7,7 +7,7 @@ import Restaurants from './components/Restaurants';
 import HomeDates from './components/HomeDates';
 import Footer from './components/Footer';
 
-import { BrowserRouter, Routers, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
@@ -15,17 +15,21 @@ function App() {
       <BrowserRouter>
         <NaviBar />
         <Hero />
-        <div>
-
-        </div>
-        {/* <Activities />
+        <Routes>
+          <Route path="/activities" element={<Activities />} />
+          <Route path="/entertainments" element={<Entertainments />} />
+          <Route path="/restaurants" element={<Restaurants />} />
+          <Route path="/homedates" element={<HomeDates />} />
+          {/* <Activities />
       <Restaurants />
       <Entertainments />
-      <HomeDates />
-    <Footer /> */}
+      <HomeDates /> */}
+        </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
 }
 
+{/* <Route path="/submitadate" element={<SubmitADate />} /> */ }
 export default App;

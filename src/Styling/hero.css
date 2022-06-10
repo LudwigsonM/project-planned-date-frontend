@@ -11,3 +11,9 @@ h1 {
 .container {
   text-align: left;
 }
+.subheading {
+  text-align: center;
+}
+.description {
+  margin: auto;
+}

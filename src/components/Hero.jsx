@@ -3,12 +3,12 @@ import "../Styling/hero.css";
 
 export default function Hero() {
   return (
-    <div class="container">
+    <section className="container">
       <div>
         <h1>PlanneDate </h1>
-        <h3 className="Space"></h3>
+        <h3 className="subheading">Narrow down where you want to go !</h3>
         <body class="hero-text">
-          <p>
+          <p description>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo,
             temporibus architecto deleniti culpa non pariatur omnis, possimus
             rerum molestiae blanditiis autem accusamus suscipit a, quia unde
@@ -39,6 +39,10 @@ export default function Hero() {
           </p>
         </body>
       </div>
-    </div>
+      <div>
+        <h2>All Dates</h2>
+        <div> show cards of all dates</div>
+      </div>
+    </section>
   );
 }
