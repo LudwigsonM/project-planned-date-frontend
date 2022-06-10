@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Hero from './components/Hero';
 import NaviBar from './components/NaviBar';
@@ -16,6 +15,9 @@ function App() {
       <BrowserRouter>
         <NaviBar />
         <Hero />
+        <div>
+
+        </div>
         {/* <Activities />
       <Restaurants />
       <Entertainments />
