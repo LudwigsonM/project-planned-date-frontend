@@ -1,0 +1,10 @@
+h1 {
+  text-align: center;
+  border: solid black;
+  padding: 35px;
+  font-family: cursive;
+  background-color: beige;
+  margin: auto;
+  justify-content: center;
+  border-spacing: 200px;
+}
