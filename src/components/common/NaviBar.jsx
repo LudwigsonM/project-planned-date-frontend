@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, NavbarBrand } from "react-bootstrap";
-import "../Styling/naviBar.css";
+import "../../Styling/naviBar.css";
 
 export default function NaviBar() {
   return (

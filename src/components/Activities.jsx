@@ -24,11 +24,7 @@ export default function Activities() {
             ) : (
               activities.map((activities) => {
                 return (
-                  <ActivitiesCard
-                    key={activities.id}
-                    title={activities.name}
-                    // key={activities.name}
-                  />
+                  <ActivitiesCard key={activities.id} title={activities.name} />
                 );
               })
             )}

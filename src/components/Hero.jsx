@@ -39,10 +39,6 @@ export default function Hero() {
           </p>
         </body>
       </div>
-      <div>
-        <h2>All Dates</h2>
-        <div> show cards of all dates</div>
-      </div>
     </section>
   );
 }
