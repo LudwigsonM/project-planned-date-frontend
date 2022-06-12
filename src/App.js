@@ -14,6 +14,7 @@ function App() {
     <>
       <BrowserRouter>
         <NaviBar />
+
         <Hero />
         <Routes>
           <Route path="/activities" element={<Activities />} />

@@ -7,7 +7,7 @@ import ActivitiesCard from "./ActivitiesCard";
 export default function Activities() {
   const [activities, setActivities] = useState("");
   useEffect(() => {
-    fetch("https://project-planned-date-backend.web.app/activities")
+    fetch("https://localhost:5051/activities")
       .then((response) => response.json())
       .then((data) => setActivities(data))
       .catch(console.error);
@@ -17,14 +17,20 @@ export default function Activities() {
     <>
       <section>
         <div>
-          <h2> Activities</h2>
+          <h2> Activities </h2>
           <Col>
             {!activities ? (
               <h2>Loading...</h2>
             ) : (
-              activities.map((activities) => (
-                <ActivitiesCard activities={activities} key={activities.id} />
-              ))
+              activities.map((activities) => {
+                return (
+                  <ActivitiesCard
+                    key={activities.id}
+                    title={activities.name}
+                    // key={activities.name}
+                  />
+                );
+              })
             )}
           </Col>
         </div>
