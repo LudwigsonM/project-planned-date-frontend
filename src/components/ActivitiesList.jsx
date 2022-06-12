@@ -4,10 +4,10 @@ import { Col, Container } from "react-bootstrap";
 import "../Styling/activities.css";
 import ActivitiesCard from "./ActivitiesCard";
 
-export default function Activities() {
-  const [activities, setActivities] = useState("");
+export default function ActivitiesList() {
+  const [activities, setActivities] = useState();
   useEffect(() => {
-    fetch("https://localhost:5051/activities")
+    fetch("https://project-planned-date-backend.web.app/activities")
       .then((response) => response.json())
       .then((data) => setActivities(data))
       .catch(console.error);
@@ -17,14 +17,16 @@ export default function Activities() {
     <>
       <section>
         <div>
-          <h2> Activities </h2>
+          <h2> Activities List Carousel </h2>
           <Col>
             {!activities ? (
               <h2>Loading...</h2>
             ) : (
-              activities.map((activities) => {
+              activities?.map((activities) => {
                 return (
-                  <ActivitiesCard key={activities.id} title={activities.name} />
+                  <div key={activities._id}>
+                    <ActivitiesCard activities={activities} />
+                  </div>
                 );
               })
             )}

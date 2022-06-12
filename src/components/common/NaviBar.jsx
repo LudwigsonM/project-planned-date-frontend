@@ -5,7 +5,7 @@ import "../../Styling/naviBar.css";
 export default function NaviBar() {
   return (
     <>
-      <nav class="navigation-bar">
+      <nav className="navigation-bar">
         <Container>
           <NavbarBrand>
             <a href="#">Home</a>
@@ -14,7 +14,7 @@ export default function NaviBar() {
             <a href="#">Restaurants</a>
             <a href="#">Home Dates</a>
             <a href="#">Contact</a>
-            <div class="animation start-home"></div>
+            <div className="animation start-home"></div>
           </NavbarBrand>
         </Container>
       </nav>

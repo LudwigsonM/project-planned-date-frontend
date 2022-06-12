@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
-export default function ActivitiesCard({ name }) {
+export default function ActivitiesCard({ activities }) {
   //   let navigate = useNavigate();
 
   return (
@@ -16,8 +16,11 @@ export default function ActivitiesCard({ name }) {
               onClick={() => navigate(`/activities/${activities.id}`)}
               cover={activities}
             > */}
-            <Card.Title>{name}</Card.Title>
-            <Card.Text></Card.Text>
+            <Card.Title>{activities.name}</Card.Title>
+            <Card.Text>{activities.location}</Card.Text>
+            <Card.Text>{activities.dressCode}</Card.Text>
+            <Card.Text>{activities.interactionLevel}</Card.Text>
+            <Card.Text>{activities.price}</Card.Text>
             {/* </Card.Body> */}
           </Card>
         </Col>

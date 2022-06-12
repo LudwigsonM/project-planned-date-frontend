@@ -7,7 +7,7 @@ export default function Hero() {
       <div>
         <h1>PlanneDate </h1>
         <h3 className="subheading">Narrow down where you want to go !</h3>
-        <body class="hero-text">
+        <body className="hero-text">
           <p description>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo nemo,
             temporibus architecto deleniti culpa non pariatur omnis, possimus
