@@ -7,18 +7,20 @@ export default function DateSelection() {
 
   return (
     <>
-      <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" /* src="holder.js/100px180" */ />
-        <Card.Body>
-          <Card.Title>ACTIVITIES</Card.Title>
-          <Card.Text>
-            Description for the way Activities are great to go on dates
-          </Card.Text>
-          <Button variant="primary" onClick={() => navigate(`/activities`)}>
-            Show Activities
-          </Button>
-        </Card.Body>
-      </Card>
+      <div className="activities-selection">
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" /* src="holder.js/100px180" */ />
+          <Card.Body>
+            <Card.Title>ACTIVITIES</Card.Title>
+            <Card.Text>
+              Description for the way Activities are great to go on dates
+            </Card.Text>
+            <Button variant="primary" onClick={() => navigate(`/activities`)}>
+              Show Activities
+            </Button>
+          </Card.Body>
+        </Card>
+      </div>
 
       <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" /* src="holder.js/100px180" */ />

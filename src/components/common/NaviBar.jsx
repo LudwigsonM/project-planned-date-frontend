@@ -8,11 +8,11 @@ export default function NaviBar() {
       <nav className="navigation-bar">
         <Container>
           <NavbarBrand>
-            <a href="#">Home</a>
-            <a href="#">Activities</a>
-            <a href="#">Entertainments</a>
-            <a href="#">Restaurants</a>
-            <a href="#">Home Dates</a>
+            <a href="/">Home</a>
+            <a href="/activities">Activities</a>
+            <a href="/entertainments">Entertainments</a>
+            <a href="/restaurants">Restaurants</a>
+            <a href="/homedates">Home Dates</a>
             <a href="#">Contact</a>
             <div className="animation start-home"></div>
           </NavbarBrand>

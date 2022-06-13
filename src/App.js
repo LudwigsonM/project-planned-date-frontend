@@ -2,7 +2,7 @@ import './App.css';
 import NaviBar from './components/common/NaviBar';
 import HomePage from './components/HomePage';
 import ActivitiesList from './components/ActivitiesList';
-import Entertainments from './components/Entertainments';
+import EntertainmentsList from './components/EntertainmentsList';
 import Restaurants from './components/Restaurants';
 import HomeDates from './components/HomeDates';
 import Footer from './components/common/Footer';
@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={< HomePage />} />
           <Route path="/activities" element={<ActivitiesList />} />
-          <Route path="/entertainments" element={<Entertainments />} />
+          <Route path="/entertainments" element={<EntertainmentsList />} />
           <Route path="/restaurants" element={<Restaurants />} />
           <Route path="/homedates" element={<HomeDates />} />
         </Routes>
