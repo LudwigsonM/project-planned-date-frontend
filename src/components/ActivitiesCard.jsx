@@ -3,8 +3,6 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 export default function ActivitiesCard({ activities }) {
-  //   let navigate = useNavigate();
-
   return (
     <Container>
       <Row>
