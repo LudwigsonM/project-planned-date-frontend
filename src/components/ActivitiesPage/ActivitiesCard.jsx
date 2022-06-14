@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
 
 export default function ActivitiesCard({ activities }) {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { Col, Container } from "react-bootstrap";
-import "../Styling/activities.css";
+import "../../Styling/activities.css";
 import ActivitiesCard from "./ActivitiesCard";
 
 export default function ActivitiesList() {

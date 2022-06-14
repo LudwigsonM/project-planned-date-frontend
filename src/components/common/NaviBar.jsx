@@ -6,17 +6,23 @@ export default function NaviBar() {
   return (
     <>
       <nav className="navigation-bar">
-        <Container>
-          <NavbarBrand>
-            <a href="/">Home</a>
-            <a href="/activities">Activities</a>
-            <a href="/entertainments">Entertainments</a>
-            <a href="/restaurants">Restaurants</a>
-            <a href="/homedates">Home Dates</a>
-            <a href="#">Contact</a>
-            <div className="animation start-home"></div>
-          </NavbarBrand>
-        </Container>
+        <a className="nav-home" href="/">
+          Home
+        </a>
+        <a className="nav-activities" href="/activities">
+          Activities
+        </a>
+        <a className="nav-entertainments" href="/entertainments">
+          Entertainments
+        </a>
+        <a className="nav-restaurants" href="/restaurants">
+          Restaurants
+        </a>
+        <a className="nav-homedates" href="/homedates">
+          Home Dates
+        </a>
+        <a href="#">Contact</a>
+        <div className="animation start-home"></div>
       </nav>
     </>
   );

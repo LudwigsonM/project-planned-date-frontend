@@ -1,7 +1,7 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import { Col } from "react-bootstrap";
-import "../Styling/entertainments.css";
+import "../../Styling/entertainments.css";
 import EntertainmentsCard from "./EntertainmentsCard";
 
 export default function EntertainmentsList() {

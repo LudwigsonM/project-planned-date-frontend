@@ -1,9 +1,10 @@
 h1 {
   text-align: center;
+  font-size: 50px;
   border: solid black;
-  padding: 35px;
+  padding: 70px;
   font-family: cursive;
-  background-color: forestgreen;
+  background-color: #58a0c3;
   margin: auto;
   justify-content: center;
   border-spacing: 200px;
