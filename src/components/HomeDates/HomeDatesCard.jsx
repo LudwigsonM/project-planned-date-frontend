@@ -11,6 +11,7 @@ export default function HomeDatesCard({ homedates }) {
             <Card.Body>
               <Card.Title>{homedates.name}</Card.Title>
               <Card.Text>{homedates.location}</Card.Text>
+              <Card.Text>{homedates.rating}</Card.Text>
               <Card.Text>{homedates.dressCode}</Card.Text>
               <Card.Text>{homedates.interactionLevel}</Card.Text>
               <Card.Text>{homedates.price}</Card.Text>

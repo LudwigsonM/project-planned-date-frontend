@@ -21,7 +21,7 @@ export default function NaviBar() {
         <a className="nav-homedates" href="/homedates">
           Home Dates
         </a>
-        <a href="#">Contact</a>
+        <a href="/submitadate">Submit A Date</a>
         <div className="animation start-home"></div>
       </nav>
     </>
