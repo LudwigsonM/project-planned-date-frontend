@@ -10,9 +10,9 @@ export default function SubmitDateForm() {
     name: "",
     location: "",
     price: "",
-    rating: "",
     dressCode: "",
-    interactionLevel: "",
+    rating: 1 | 2 | 3 | 4 | 5,
+    interactionLevel: 1 | 2 | 3,
     image: "",
   });
 
@@ -123,6 +123,11 @@ export default function SubmitDateForm() {
             require
           </Form.Select>
         </FloatingLabel>
+
+        <Form.Group controlId="formFile" className="mb-3">
+          <Form.Label>Upload a photo</Form.Label>
+          <Form.Control type="file" />
+        </Form.Group>
 
         <body>
           <span>

@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { Col } from "react-bootstrap";
 import RetrieveDateFormCard from "./RetrieveDateFormCard";
+import "../../Styling/retrieveDateForm.css";
 
 export default function RetrieveDateForm() {
   const [retrieveDate, setRetrieveDate] = useState();
