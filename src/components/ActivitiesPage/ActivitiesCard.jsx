@@ -7,7 +7,7 @@ export default function ActivitiesCard({ activities }) {
       <Row>
         <Col>
           <Card className="activity" style={{ width: "18rem" }}>
-            <Card.Img variant="top" />
+            <Card.Img variant="top" className="images" src={activities.image} />
             <Card.Body>
               <Card.Title>{activities.name}</Card.Title>
               <Card.Text>{activities.location}</Card.Text>

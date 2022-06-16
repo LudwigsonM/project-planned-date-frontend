@@ -1,3 +1,29 @@
-.activities-selection {
+import h4 {
+  font-size: large;
+}
+.all-date-selections {
   border-color: brown;
+  border-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+}
+
+.activities-selection {
+  margin: auto;
+  border-color: brown;
+  border-style: solid;
+}
+
+.entertainments-selection {
+  margin: auto;
+}
+
+.restaurants-selection {
+  margin: auto;
+}
+
+.homedates-selection {
+  margin: auto;
 }

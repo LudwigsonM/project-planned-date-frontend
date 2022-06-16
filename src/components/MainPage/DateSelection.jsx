@@ -1,6 +1,7 @@
 import React from "react";
 import { Button, Card } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
+import "../../Styling/dateSelection.css";
 
 export default function DateSelection() {
   let navigate = useNavigate();
@@ -8,10 +9,12 @@ export default function DateSelection() {
   return (
     <>
       <div className="all-date-selections">
-        <Card className="activities-selection" style={{ width: "18rem" }}>
+        <Card className="activities-selection">
           <Card.Img variant="top" /* src="holder.js/100px180" */ />
           <Card.Body>
-            <Card.Title>ACTIVITIES</Card.Title>
+            <Card.Title>
+              <h4>ACTIVITIES</h4>
+            </Card.Title>
             <Card.Text>
               Description for the way Activities are great to go on dates
             </Card.Text>
@@ -24,7 +27,9 @@ export default function DateSelection() {
         <Card className="entertainments-selection" style={{ width: "18rem" }}>
           <Card.Img variant="top" /* src="holder.js/100px180" */ />
           <Card.Body>
-            <Card.Title>Entertainments</Card.Title>
+            <Card.Title>
+              <h4>Entertainments</h4>
+            </Card.Title>
             <Card.Text>
               Description for the way Entertainments are great to go on dates
             </Card.Text>
@@ -40,7 +45,9 @@ export default function DateSelection() {
         <Card className="restaurants-selection" style={{ width: "18rem" }}>
           <Card.Img variant="top" /* src="holder.js/100px180" */ />
           <Card.Body>
-            <Card.Title>RESTAURANTS</Card.Title>
+            <Card.Title>
+              <h4>RESTAURANTS</h4>
+            </Card.Title>
             <Card.Text>
               Description for the way RESTAURANTS are great to go on dates
             </Card.Text>
@@ -53,7 +60,9 @@ export default function DateSelection() {
         <Card className="homedates-selection" style={{ width: "18rem" }}>
           <Card.Img variant="top" /* src="holder.js/100px180" */ />
           <Card.Body>
-            <Card.Title>HOME DATES</Card.Title>
+            <Card.Title>
+              <h4>HOME DATES</h4>
+            </Card.Title>
             <Card.Text>
               Description for the way Home Dates are great to go on dates
             </Card.Text>

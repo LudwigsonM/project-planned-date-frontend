@@ -5,3 +5,13 @@ h2 {
 .activity {
   border-color: chartreuse;
 }
+
+.col {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+.images {
+  width: 100%;
+}
