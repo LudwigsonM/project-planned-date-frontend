@@ -6,14 +6,24 @@ import h4 {
   border-style: solid;
   display: flex;
   flex-wrap: wrap;
+  object-fit: scale-down;
+  justify-content: space-between;
   width: 50%;
   margin: auto;
 }
 
-.activities-selection {
+/* .activities-selection {
   margin: auto;
   border-color: brown;
   border-style: solid;
+}
+
+.restaurants-img {
+  width: 25%;
+}
+
+.homedates-img {
+  width: 25%;
 }
 
 .entertainments-selection {
@@ -26,4 +36,26 @@ import h4 {
 
 .homedates-selection {
   margin: auto;
+} */
+
+.event-cards {
+  width: 40%;
+  border-style: solid;
+  border-color: aqua;
+  object-fit: scale-down;
+  margin: 10px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+#activities-img {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+#entertainments-img {
+  width: 100%;
+  object-fit: scale-down;
 }

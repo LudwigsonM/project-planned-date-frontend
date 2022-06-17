@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 
 export default function RestaurantsCard({ restaurants }) {
@@ -7,7 +7,11 @@ export default function RestaurantsCard({ restaurants }) {
       <Row>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" />
+            <Card.Img
+              variant="top"
+              className="rest-images"
+              src={restaurants.image}
+            />
             <Card.Body>
               <Card.Title>{restaurants.name}</Card.Title>
               <Card.Text>{restaurants.location}</Card.Text>

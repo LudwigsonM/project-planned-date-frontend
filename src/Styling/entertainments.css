@@ -1,0 +1,10 @@
+.col {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+.ent-image {
+  width: 100%;
+}

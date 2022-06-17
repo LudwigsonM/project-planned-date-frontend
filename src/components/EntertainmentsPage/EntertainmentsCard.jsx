@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 
 export default function EntertainmentsCard({ entertainments }) {
@@ -7,7 +7,11 @@ export default function EntertainmentsCard({ entertainments }) {
       <Row>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" />
+            <Card.Img
+              variant="top"
+              className="ent-images"
+              src={entertainments.image}
+            />
             <Card.Body>
               <Card.Title>{entertainments.name}</Card.Title>
               <Card.Text>{entertainments.location}</Card.Text>

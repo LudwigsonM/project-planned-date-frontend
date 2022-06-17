@@ -1,0 +1,9 @@
+.col {
+  margin: 5%;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+.act-images {
+  width: 100%;
+}

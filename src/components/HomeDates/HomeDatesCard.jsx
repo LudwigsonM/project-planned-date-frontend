@@ -7,7 +7,11 @@ export default function HomeDatesCard({ homedates }) {
       <Row>
         <Col>
           <Card style={{ width: "18rem" }}>
-            <Card.Img variant="top" />
+            <Card.Img
+              variant="top"
+              className="home-images"
+              src={homedates.image}
+            />
             <Card.Body>
               <Card.Title>{homedates.name}</Card.Title>
               <Card.Text>{homedates.location}</Card.Text>

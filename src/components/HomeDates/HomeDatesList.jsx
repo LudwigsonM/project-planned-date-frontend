@@ -20,7 +20,7 @@ export default function HomeDatesList() {
           <h2> Home Dates List Carousel </h2>
           <Col>
             {!homedates ? (
-              <h2>Loading...</h2>
+              <h3>Gathering Home Dates </h3>
             ) : (
               homedates?.map((homedates) => {
                 return (
