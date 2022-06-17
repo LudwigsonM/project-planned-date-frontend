@@ -6,7 +6,7 @@ export default function RestaurantsCard({ restaurants }) {
     <Container>
       <Row>
         <Col>
-          <Card className="restaurant">
+          <Card className="restaurant" test="size">
             <Card.Img
               variant="top"
               className="rest-images"

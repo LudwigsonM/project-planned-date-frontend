@@ -5,8 +5,12 @@
   overflow-x: auto;
 }
 .restaurant {
-  width: 18rem;
+  width: 20rem;
 }
 .rest-images {
   width: 100%;
+}
+
+.size {
+  border-color: deeppink;
 }
