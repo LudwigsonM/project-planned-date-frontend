@@ -4,6 +4,9 @@
   flex-direction: row;
   overflow-x: auto;
 }
-.act-images {
+.restaurant {
+  width: 18rem;
+}
+.rest-images {
   width: 100%;
 }

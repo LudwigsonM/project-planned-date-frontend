@@ -6,7 +6,7 @@ export default function EntertainmentsCard({ entertainments }) {
     <Container>
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className="entertainment">
             <Card.Img
               variant="top"
               className="ent-images"

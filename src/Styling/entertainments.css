@@ -5,6 +5,10 @@
   overflow-x: auto;
 }
 
-.ent-image {
+.entertainment {
+  width: 18rem;
+}
+
+.ent-images {
   width: 100%;
 }

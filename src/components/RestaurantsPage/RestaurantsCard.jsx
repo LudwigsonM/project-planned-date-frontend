@@ -6,7 +6,7 @@ export default function RestaurantsCard({ restaurants }) {
     <Container>
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className="restaurant">
             <Card.Img
               variant="top"
               className="rest-images"

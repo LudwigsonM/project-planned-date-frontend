@@ -4,6 +4,10 @@
   flex-direction: row;
   overflow-x: auto;
 }
-.act-images {
+.home-images {
   width: 100%;
+}
+
+.home {
+  width: 18rem;
 }

@@ -6,7 +6,7 @@ export default function HomeDatesCard({ homedates }) {
     <Container>
       <Row>
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card className="home">
             <Card.Img
               variant="top"
               className="home-images"

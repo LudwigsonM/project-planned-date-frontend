@@ -85,6 +85,11 @@ export default function DateSelection() {
             <Card.Text>
               Description for the way Home Dates are great to go on dates
             </Card.Text>
+            <body>
+              <span>
+                <a href="/homedates"></a>
+              </span>
+            </body>
             <Button variant="primary" onClick={() => navigate(`/homedates`)}>
               Show homedates
             </Button>

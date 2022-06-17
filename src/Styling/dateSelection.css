@@ -8,10 +8,74 @@ import h4 {
   flex-wrap: wrap;
   object-fit: scale-down;
   justify-content: space-between;
-  width: 50%;
+  width: 70%;
   margin: auto;
 }
 
+.event-cards {
+  width: 40%;
+  border-style: solid;
+  border-color: aqua;
+  object-fit: scale-down;
+  margin: 40px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+#activities-img {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+#entertainments-img {
+  width: 100%;
+  object-fit: scale-down;
+}
+
+span {
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+}
+
+span a {
+  font-size: 19px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform 0.25s;
+  font-family: "Montserrat", sans-serif;
+}
+span a:before,
+span a:after {
+  position: absolute;
+  content: "VIEW";
+  height: 55px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid black;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+span a:before {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.318);
+  transform: rotateY(0deg) translateZ(25px);
+}
+span a:after {
+  color: #000;
+  transform: rotateX(90deg) translateZ(25px);
+}
+span a:hover {
+  transform: translateZ(-25px) rotateX(-90deg);
+}
 /* .activities-selection {
   margin: auto;
   border-color: brown;
@@ -37,25 +101,3 @@ import h4 {
 .homedates-selection {
   margin: auto;
 } */
-
-.event-cards {
-  width: 40%;
-  border-style: solid;
-  border-color: aqua;
-  object-fit: scale-down;
-  margin: 10px;
-}
-
-.card-img {
-  width: 100%;
-}
-
-#activities-img {
-  width: 100%;
-  object-fit: scale-down;
-}
-
-#entertainments-img {
-  width: 100%;
-  object-fit: scale-down;
-}
