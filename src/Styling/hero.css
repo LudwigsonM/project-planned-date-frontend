@@ -2,14 +2,14 @@ h1 {
   display: flex;
   text-align: center;
   font-size: 80px;
-  border: solid black;
-  border-radius: 85px;
+  border: solid rgba(127, 75, 205, 0.132);
+  border-radius: 20px;
   padding: 70px;
   font-family: cursive;
-  background-color: #58a0c3;
+  background-color: #8b83d143;
   margin: auto;
   justify-content: center;
-  border-spacing: 200px;
+  /* border-spacing: 20px; */
 }
 .container {
   text-align: left;

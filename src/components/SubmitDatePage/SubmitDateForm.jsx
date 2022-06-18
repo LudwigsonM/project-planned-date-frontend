@@ -134,10 +134,12 @@ export default function SubmitDateForm() {
             <a href="#" onClick={handleSubmit}></a>
           </span>
         </body>
-        <Button variant="primary" onClick={() => navigate(`/viewdates`)}>
+      </section>
+      <div className="show-submitted">
+        <Button onClick={() => navigate(`/viewdates`)}>
           Show Submitted Date
         </Button>
-      </section>
+      </div>
     </>
   );
 }

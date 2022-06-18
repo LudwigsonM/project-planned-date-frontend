@@ -1,8 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:600&display=swap");
 
-section {
-  border-color: rgb(113, 255, 74);
+.dateform {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  flex-direction: column;
+  padding: 25px;
 }
+
+.form-floating {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+}
+
 span {
   position: relative;
   display: inline-flex;
