@@ -44,6 +44,7 @@ export default function SubmitDateForm() {
       <section className="dateform">
         <FloatingLabel controlId="floatingInput" label="Name" className="mb-3">
           <Form.Control
+            // size="lg"
             type="text"
             placeholder="Name"
             defaultValue={newSubmitDate.name}

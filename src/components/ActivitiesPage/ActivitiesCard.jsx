@@ -13,12 +13,14 @@ export default function ActivitiesCard({ activities }) {
               src={activities.image}
             />
             <Card.Body>
-              <Card.Title>{activities.name}</Card.Title>
-              <Card.Text>{activities.location}</Card.Text>
-              <Card.Text>{activities.price}</Card.Text>
-              <Card.Text>{activities.rating}</Card.Text>
-              <Card.Text>{activities.dressCode}</Card.Text>
-              <Card.Text>{activities.interactionLevel}</Card.Text>
+              <Card.Title>Name: {activities.name}</Card.Title>
+              <Card.Text>Location: {activities.location}</Card.Text>
+              <Card.Text>Price: {activities.price}</Card.Text>
+              <Card.Text>Rating: {activities.rating}</Card.Text>
+              <Card.Text>Dress Code: {activities.dressCode}</Card.Text>
+              <Card.Text>
+                Interaction Level: {activities.interactionLevel}
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>

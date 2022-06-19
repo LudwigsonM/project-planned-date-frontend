@@ -32,9 +32,14 @@ export default function DateSelection() {
             <Card.Text>
               Description for the way Activities are great to go on dates
             </Card.Text>
-            <Button variant="primary" onClick={() => navigate(`/activities`)}>
+            <body>
+              <span>
+                <a href="/activities"></a>
+              </span>
+            </body>
+            {/* <Button variant="primary" onClick={() => navigate(`/activities`)}>
               Show Activities
-            </Button>
+            </Button> */}
           </Card.Body>
         </Card>
 
@@ -52,12 +57,17 @@ export default function DateSelection() {
             <Card.Text>
               Description for the way Entertainments are great to go on dates
             </Card.Text>
-            <Button
+            <body>
+              <span>
+                <a href="/entertainments"></a>
+              </span>
+            </body>
+            {/* <Button
               variant="primary"
               onClick={() => navigate(`/entertainments`)}
             >
               Show Entertainments
-            </Button>
+            </Button> */}
           </Card.Body>
         </Card>
 
@@ -70,9 +80,14 @@ export default function DateSelection() {
             <Card.Text>
               Description for the way RESTAURANTS are great to go on dates
             </Card.Text>
-            <Button variant="primary" onClick={() => navigate(`/restaurants`)}>
+            <body>
+              <span>
+                <a href="/restaurants"></a>
+              </span>
+            </body>
+            {/* <Button variant="primary" onClick={() => navigate(`/restaurants`)}>
               Show Restaurants
-            </Button>
+            </Button> */}
           </Card.Body>
         </Card>
 
@@ -90,9 +105,9 @@ export default function DateSelection() {
                 <a href="/homedates"></a>
               </span>
             </body>
-            <Button variant="primary" onClick={() => navigate(`/homedates`)}>
+            {/* <Button variant="primary" onClick={() => navigate(`/homedates`)}>
               Show homedates
-            </Button>
+            </Button> */}
           </Card.Body>
         </Card>
       </div>
