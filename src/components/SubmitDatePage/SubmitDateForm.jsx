@@ -42,7 +42,7 @@ export default function SubmitDateForm() {
   return (
     <>
       <section className="dateform">
-        <FloatingLabel controlId="floatingInput" label="Name" className="mb-3">
+        <FloatingLabel controlId="floatingInput" className="mb-3">
           <Form.Control
             // size="lg"
             type="text"
@@ -54,7 +54,7 @@ export default function SubmitDateForm() {
           />
         </FloatingLabel>
 
-        <FloatingLabel controlId="floatingLocation" label="Location">
+        <FloatingLabel controlId="floatingLocation">
           <Form.Control
             type="input"
             placeholder="Location"
@@ -65,7 +65,7 @@ export default function SubmitDateForm() {
           />
         </FloatingLabel>
 
-        <FloatingLabel controlId="floatingPrice" label="Price">
+        <FloatingLabel controlId="floatingPrice">
           <Form.Select
             type="input"
             placeholder="$"
@@ -74,7 +74,7 @@ export default function SubmitDateForm() {
             required="true"
             name="price"
           >
-            <option></option>
+            <option disabled>Price</option>
             <option defaultValue="$">$</option>
             <option defaultValue="$$">$$</option>
             <option defaultValue="$$$">$$$</option>
@@ -83,9 +83,9 @@ export default function SubmitDateForm() {
           </Form.Select>
         </FloatingLabel>
 
-        <FloatingLabel controlId="floatingRating" label="Rating">
+        <FloatingLabel controlId="floatingRating">
           <Form.Select type="Rating" placeholder="⭐️" name="rating">
-            <option>select rating</option>
+            <option disabled>select rating</option>
             <option defaultValue="1">⭐️</option>
             <option defaultValue="2">⭐️⭐️</option>
             <option defaultValue="3">⭐️⭐️⭐️</option>
@@ -96,7 +96,7 @@ export default function SubmitDateForm() {
           </Form.Select>
         </FloatingLabel>
 
-        <FloatingLabel controlId="floatingDressCode" label="Dress Code">
+        <FloatingLabel controlId="floatingDressCode">
           <Form.Control
             type="DressCode"
             placeholder="Dress Code"
@@ -107,16 +107,13 @@ export default function SubmitDateForm() {
           />
         </FloatingLabel>
 
-        <FloatingLabel
-          controlId="floatingInteractionLevel"
-          label="Interaction Level"
-        >
+        <FloatingLabel controlId="floatingInteractionLevel">
           <Form.Select
             type="Interaction Level"
             placeholder="Interaction Level"
             name="interactionLevel"
           >
-            <option></option>
+            <option disabled>Interaction </option>
             <option defaultValue="1">Low Interaction</option>
             <option defaultValue="2">Average Interaction</option>
             <option defaultValue="3">High Interaction</option>
@@ -136,6 +133,7 @@ export default function SubmitDateForm() {
           </span>
         </body>
       </section>
+
       <div className="show-submitted">
         <Button onClick={() => navigate(`/viewdates`)}>
           Show Submitted Date

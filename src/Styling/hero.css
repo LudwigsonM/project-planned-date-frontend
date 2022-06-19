@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
 h1 {
   font-family: "Rock Salt", cursive;
   display: flex;
@@ -15,16 +15,20 @@ h1 {
   margin: auto;
   justify-content: center;
   /* border-spacing: 20px; */
-
-  box-shadow: inset 0 0 50px #fff, inset 20px 0 80px #f0f,
-    inset -20px 0 80px #0ff, inset 20px 0 300px #f0f, inset -20px 0 300px #0ff,
-    0 0 50px #fff, -10px 0 80px #f0f, 10px 0 80px #0ff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff,
+    0 0 40px rgb(120, 56, 223), 0 0 80px rgb(120, 56, 223),
+    0 0 90px rgb(120, 56, 223), 0 0 100px rgb(120, 56, 223),
+    0 0 150px rgb(120, 56, 223);
 }
+
 .container {
   text-align: left;
 }
 .subheading {
+  font-family: "Yellowtail", cursive;
+  font-size: 45px;
   background-color: #fafcff37;
+  color: rgba(0, 35, 122, 0.5);
 
   text-align: center;
 }

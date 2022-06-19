@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Card } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import "../../Styling/dateSelection.css";
-import RestaurantsCard from "../RestaurantsPage/RestaurantsCard";
+
 const actImg =
   "https://www.wallpaperup.com/uploads/wallpapers/2015/04/16/663367/6458a57c51073bae4516e3f93e420aaf-700.jpg";
 const entImg =
@@ -52,7 +52,7 @@ export default function DateSelection() {
           />
           <Card.Body>
             <Card.Title>
-              <h4>Entertainments</h4>
+              <h4>ENTERTAINMENTS</h4>
             </Card.Title>
             <Card.Text>
               Description for the way Entertainments are great to go on dates

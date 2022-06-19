@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@1,600&display=swap");
+
 import h4 {
   font-size: large;
+  font-family: "Montserrat Alternates", sans-serif;
 }
 .all-date-selections {
-  border-color: brown;
-  border-style: solid;
+  /* border-color: brown;
+  border-style: solid; */
   display: flex;
   flex-wrap: wrap;
   object-fit: scale-down;
@@ -14,13 +17,14 @@ import h4 {
 
 .event-cards {
   width: 40%;
-  border-style: solid;
-  border-color: aqua;
+  /* border-style: solid; */
+  /* border-color: rgba(82, 82, 153, 0.849); */
   object-fit: scale-down;
   margin: 40px;
 }
 
 .card-img {
+  border-radius: 35px;
   width: 100%;
 }
 
