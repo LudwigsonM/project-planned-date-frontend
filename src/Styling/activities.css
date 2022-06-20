@@ -1,5 +1,8 @@
 h2 {
-  color: blue;
+  font-family: "Yellowtail", cursive;
+  font-size: 5rem;
+  text-align: center;
+  color: rgba(0, 35, 122, 0.5);
 }
 
 .col {

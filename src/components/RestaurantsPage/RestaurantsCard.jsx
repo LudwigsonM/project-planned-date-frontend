@@ -13,11 +13,14 @@ export default function RestaurantsCard({ restaurants }) {
               src={restaurants.image}
             />
             <Card.Body>
-              <Card.Title>{restaurants.name}</Card.Title>
-              <Card.Text>{restaurants.location}</Card.Text>
-              <Card.Text>{restaurants.dressCode}</Card.Text>
-              <Card.Text>{restaurants.interactionLevel}</Card.Text>
-              <Card.Text>{restaurants.price}</Card.Text>
+              <Card.Title>Name: {restaurants.name}</Card.Title>
+              <Card.Text>Location: {restaurants.location}</Card.Text>
+              <Card.Text>Price: {restaurants.price}</Card.Text>
+              <Card.Text>Rating: {restaurants.rating}</Card.Text>
+              <Card.Text>Dress Code: {restaurants.dressCode}</Card.Text>
+              <Card.Text>
+                Interaction Level:{restaurants.interactionLevel}
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>

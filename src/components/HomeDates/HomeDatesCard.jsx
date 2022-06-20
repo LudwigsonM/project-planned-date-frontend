@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Card, Col, Container, Row } from "react-bootstrap";
 
 export default function HomeDatesCard({ homedates }) {
@@ -13,12 +13,14 @@ export default function HomeDatesCard({ homedates }) {
               src={homedates.image}
             />
             <Card.Body>
-              <Card.Title>{homedates.name}</Card.Title>
-              <Card.Text>{homedates.location}</Card.Text>
-              <Card.Text>{homedates.rating}</Card.Text>
-              <Card.Text>{homedates.dressCode}</Card.Text>
-              <Card.Text>{homedates.interactionLevel}</Card.Text>
-              <Card.Text>{homedates.price}</Card.Text>
+              <Card.Title>Name: {homedates.name}</Card.Title>
+              <Card.Text>Location: {homedates.location}</Card.Text>
+              <Card.Text>Price: {homedates.price}</Card.Text>
+              <Card.Text>Rating: {homedates.rating}</Card.Text>
+              <Card.Text>Dress Code: {homedates.dressCode}</Card.Text>
+              <Card.Text>
+                Interaction Level: {homedates.interactionLevel}
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>

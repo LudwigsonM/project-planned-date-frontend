@@ -17,7 +17,7 @@ export default function ActivitiesList() {
     <>
       <section>
         <div>
-          <h2> Activities List Carousel </h2>
+          <h2> Activities List </h2>
           <Col>
             {!activities ? (
               <h2>Loading...</h2>

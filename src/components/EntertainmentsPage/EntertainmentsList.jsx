@@ -17,7 +17,7 @@ export default function EntertainmentsList() {
     <>
       <section>
         <div>
-          <h2> Entertainments List Carousel </h2>
+          <h2> Entertainments List </h2>
           <Col>
             {!entertainments ? (
               <h2>Loading...</h2>

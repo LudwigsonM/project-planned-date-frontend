@@ -13,11 +13,14 @@ export default function EntertainmentsCard({ entertainments }) {
               src={entertainments.image}
             />
             <Card.Body>
-              <Card.Title>{entertainments.name}</Card.Title>
-              <Card.Text>{entertainments.location}</Card.Text>
-              <Card.Text>{entertainments.dressCode}</Card.Text>
-              <Card.Text>{entertainments.interactionLevel}</Card.Text>
-              <Card.Text>{entertainments.price}</Card.Text>
+              <Card.Title>Name: {entertainments.name}</Card.Title>
+              <Card.Text>Location: {entertainments.location}</Card.Text>
+              <Card.Text>Price: {entertainments.price}</Card.Text>
+              <Card.Text>Rating: {entertainments.rating}</Card.Text>
+              <Card.Text>Dress Code: {entertainments.dressCode}</Card.Text>
+              <Card.Text>
+                Interaction Level: {entertainments.interactionLevel}
+              </Card.Text>
             </Card.Body>
           </Card>
         </Col>

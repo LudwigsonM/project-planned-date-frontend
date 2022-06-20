@@ -17,7 +17,7 @@ export default function RetrieveDateForm() {
     <>
       <section>
         <div>
-          <h2> Previously Submitted Dates Carousel </h2>
+          <h2> Previously Submitted Dates </h2>
           <Col>
             {!retrieveDate ? (
               <h2>Loading...</h2>
