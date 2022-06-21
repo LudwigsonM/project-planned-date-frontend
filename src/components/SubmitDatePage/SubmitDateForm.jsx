@@ -27,7 +27,7 @@ export default function SubmitDateForm() {
       },
       body: JSON.stringify(newSubmitDate),
     })
-      .then(() => navigate("/submitadate"))
+      .then(() => navigate("/viewdates"))
       .catch(setError);
   };
 
@@ -42,6 +42,21 @@ export default function SubmitDateForm() {
   return (
     <>
       <section className="dateform">
+        <FloatingLabel controlId="floatingCategory">
+          <Form.Select
+            type="input"
+            placeholder="Category"
+            required="true"
+            name="category"
+          >
+            <option>Categories</option>
+            <option defaultValue="Activity">Activity</option>
+            <option defaultValue="Entertainment">Entertainment</option>
+            <option defaultValue="Restaurant">Restaurant</option>
+            <option defaultValue="Home Date">Home Dates</option>
+          </Form.Select>
+        </FloatingLabel>
+
         <FloatingLabel controlId="floatingInput" className="mb-3">
           <Form.Control
             // size="lg"
@@ -122,23 +137,23 @@ export default function SubmitDateForm() {
           </Form.Select>
         </FloatingLabel>
 
-        <Form.Group controlId="formFile" className="mb-3">
+        {/* <Form.Group controlId="formFile" className="mb-3">
           <Form.Label>Upload a photo</Form.Label>
           <Form.Control type="file" />
-        </Form.Group>
+        </Form.Group> */}
 
         <body>
           <span>
-            <a href="#" onClick={handleSubmit}></a>
+            <a href="/viewdates" onClick={handleSubmit}></a>
           </span>
         </body>
       </section>
 
-      <div className="show-submitted">
+      {/* <div className="show-submitted">
         <Button onClick={() => navigate(`/viewdates`)}>
           Show Submitted Date
         </Button>
-      </div>
+      </div> */}
     </>
   );
 }

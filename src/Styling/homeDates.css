@@ -6,8 +6,9 @@
 }
 .home-images {
   width: 100%;
+  border-radius: 28px;
 }
 
 .home {
-  width: 18rem;
+  width: 35rem;
 }

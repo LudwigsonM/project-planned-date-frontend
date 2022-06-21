@@ -17,7 +17,7 @@ export default function ActivitiesList() {
     <>
       <section>
         <div>
-          <h2> Activities List </h2>
+          <h2> Local Activities</h2>
           <Col>
             {!activities ? (
               <h2>Loading...</h2>

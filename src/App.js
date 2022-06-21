@@ -17,15 +17,50 @@ function App() {
       <BrowserRouter>
         <NaviBar />
         <Routes >
-          <Route path="/" element={< HomePage />} />
-          <Route path="/activities" element={<ActivitiesList />} />
-          <Route path="/entertainments" element={<EntertainmentsList />} />
-          <Route path="/restaurants" element={<RestaurantsList />} />
-          <Route path="/homedates" element={<HomeDatesList />} />
-          <Route path="/submitadate" element={<SubmitDateForm />} />
-          <Route path="/viewdates" element={<RetrieveDateForm />} />
+          <Route path="/" element={
+            <>
+              <HomePage />
+              <Footer />
+            </>} />
+
+          <Route path="/activities" element={
+            <>
+              <ActivitiesList />
+              <Footer />
+            </>} />
+
+          <Route path="/entertainments" element={
+            <>
+              <EntertainmentsList />
+              <Footer />
+            </>} />
+
+          <Route path="/restaurants" element={
+            <>
+              <RestaurantsList />
+              <Footer />
+            </>} />
+
+          <Route path="/homedates" element={
+            <>
+              <HomeDatesList />
+              <Footer />
+            </>} />
+
+          <Route path="/submitadate" element={
+            <>
+              <SubmitDateForm />
+              <Footer />
+            </>} />
+
+          <Route path="/viewdates" element={
+            <>
+              <RetrieveDateForm />
+              <Footer />
+            </>} />
+
         </Routes >
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </>
   );

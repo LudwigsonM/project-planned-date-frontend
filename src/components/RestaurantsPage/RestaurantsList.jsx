@@ -17,7 +17,7 @@ export default function RestaurantsList() {
     <>
       <section>
         <div>
-          <h2> Restaurants List </h2>
+          <h2> Local Restaurants </h2>
           <Col>
             {!restaurants ? (
               <h2>Loading...</h2>

@@ -17,7 +17,7 @@ export default function HomeDatesList() {
     <>
       <section>
         <div>
-          <h2> Home Dates List </h2>
+          <h2>Home Dates</h2>
           <Col>
             {!homedates ? (
               <h3>Gathering Home Dates </h3>
