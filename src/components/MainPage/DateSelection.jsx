@@ -37,9 +37,6 @@ export default function DateSelection() {
                 <a href="/activities"></a>
               </span>
             </body>
-            {/* <Button variant="primary" onClick={() => navigate(`/activities`)}>
-              Show Activities
-            </Button> */}
           </Card.Body>
         </Card>
 
@@ -62,12 +59,6 @@ export default function DateSelection() {
                 <a href="/entertainments"></a>
               </span>
             </body>
-            {/* <Button
-              variant="primary"
-              onClick={() => navigate(`/entertainments`)}
-            >
-              Show Entertainments
-            </Button> */}
           </Card.Body>
         </Card>
 
@@ -85,9 +76,6 @@ export default function DateSelection() {
                 <a href="/restaurants"></a>
               </span>
             </body>
-            {/* <Button variant="primary" onClick={() => navigate(`/restaurants`)}>
-              Show Restaurants
-            </Button> */}
           </Card.Body>
         </Card>
 
@@ -105,9 +93,6 @@ export default function DateSelection() {
                 <a href="/homedates"></a>
               </span>
             </body>
-            {/* <Button variant="primary" onClick={() => navigate(`/homedates`)}>
-              Show homedates
-            </Button> */}
           </Card.Body>
         </Card>
       </div>
