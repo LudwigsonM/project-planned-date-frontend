@@ -6,7 +6,7 @@ export default function Footer() {
     <>
       <body>
         <section className="footer-design">
-          <p>&copy;PlanneDate, LLC </p>
+          <p>Ludwigson Morisseau &copy; PlanneDate, LLC </p>
         </section>
       </body>
     </>

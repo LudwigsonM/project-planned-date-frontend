@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import "../../Styling/dateSelection.css";
 
@@ -30,7 +30,9 @@ export default function DateSelection() {
               <h4>ACTIVITIES</h4>
             </Card.Title>
             <Card.Text>
-              Description for the way Activities are great to go on dates
+              Activities are a great way for couples to get moving and have
+              light competition with each other during the date. These types of
+              dates allow for more communication and higher interaction.{" "}
             </Card.Text>
             <body>
               <span>
@@ -52,7 +54,8 @@ export default function DateSelection() {
               <h4>ENTERTAINMENTS</h4>
             </Card.Title>
             <Card.Text>
-              Description for the way Entertainments are great to go on dates
+              Entertainment provides a way for those who have similar interests
+              and build{" "}
             </Card.Text>
             <body>
               <span>
@@ -69,7 +72,8 @@ export default function DateSelection() {
               <h4>RESTAURANTS</h4>
             </Card.Title>
             <Card.Text>
-              Description for the way RESTAURANTS are great to go on dates
+              Restaurants are a great way to take things slow and enjoy
+              wonderful food and ambience.
             </Card.Text>
             <body>
               <span>
@@ -86,7 +90,7 @@ export default function DateSelection() {
               <h4>HOME DATES</h4>
             </Card.Title>
             <Card.Text>
-              Description for the way Home Dates are great to go on dates
+              There's no place like home & dates should not be any different.
             </Card.Text>
             <body>
               <span>
